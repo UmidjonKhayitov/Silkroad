@@ -1,0 +1,673 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(20, 20, 157);
+}
+
+.container .combaine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    background-color: #0391E0;
+}
+
+.container .topnav {
+    display: flex;
+    align-items: center;
+    gap: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #0391E0;
+}
+
+.container .topnav a {
+    margin-left: 20%;
+    color: rgba(236, 236, 236, 0.8);
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    transition: all .3s linear;
+
+}
+
+.container .topnav:hover a {
+    color: #fff;
+}
+
+.container .combaine .mail {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .mail a {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0%;
+    color: rgba(236, 236, 236, 0.8);
+    transition: all .3s linear;
+}
+
+.container .mail a:nth-child(1) {
+    color: rgba(236, 236, 236, 0.8);
+}
+
+.container .mail a:nth-child(1):hover {
+    color: #fff;
+}
+
+.container .mail a:nth-child(2) {
+    color: rgba(236, 236, 236, 0.8);
+}
+
+.container .mail a:nth-child(2):hover {
+    color: #fff;
+}
+
+.container .mail a:nth-child(3) {
+    color: rgba(236, 236, 236, 0.8);
+}
+
+.container .mail a:nth-child(3):hover {
+    color: #fff;
+}
+
+.container .mail a:nth-child(4) {
+    color: rgba(236, 236, 236, 0.8);
+}
+
+.container .mail a:nth-child(4):hover {
+    color: #fff;
+}
+
+.container .mail a:nth-child(5) {
+    color: rgba(236, 236, 236, 0.8);
+}
+
+.container .mail a:nth-child(5):hover {
+    color: #fff;
+}
+
+.container .navbar {
+    width: 100%;
+    height: 11%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+
+}
+
+.container .navbar .logo {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .navbar .logo img {
+    width: 90%;
+    height: 75%;
+}
+
+.container .navbar .you ul {
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    z-index: 1000;
+}
+
+.container .navbar .you ul li {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    border: none;
+    margin-top: 5%;
+    position: relative;
+    float: left;
+}
+
+.container .navbar .you .one::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    margin-left: 10%;
+    background-color: #0391E0;
+    position: relative;
+    top: -15px;
+    left: 0;
+    transition: all .2s linear;
+}
+
+.container .navbar .you .one:hover::after {
+    width: 80%;
+}
+
+.container .navbar .you .two::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    margin-left: 10%;
+    background-color: #0391E0;
+    position: relative;
+    top: -15px;
+    left: 0;
+    transition: all .2s linear;
+}
+
+.container .navbar .you .two:hover::after {
+    width: 80%;
+}
+
+.container .navbar .you .three::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    margin-left: 10%;
+    background-color: #0391E0;
+    position: relative;
+    top: -15px;
+    left: 0;
+    transition: all .2s linear;
+}
+
+.container .navbar .you .three:hover::after {
+    width: 80%;
+}
+
+.container .navbar .you .four::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    margin-left: 10%;
+    background-color: #0391E0;
+    position: relative;
+    top: -15px;
+    left: 0;
+    transition: all .2s linear;
+}
+
+.container .navbar .you .four:hover::after {
+    width: 80%;
+}
+
+.container .navbar .you .five::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    margin-left: 10%;
+    background-color: #0391E0;
+    position: relative;
+    top: -15px;
+    left: 0;
+    transition: all .2s linear;
+}
+
+.container .navbar .you .five:hover::after {
+    width: 80%;
+}
+
+.container .navbar .you .six::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    margin-left: 10%;
+    background-color: #0391E0;
+    position: relative;
+    top: -15px;
+    left: 0;
+    transition: all .2s linear;
+}
+
+.container .navbar .you .six:hover::after {
+    width: 80%;
+}
+
+.container .navbar .you ul li a {
+    margin-top: -5%;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    display: block;
+    transition: all .1s linear;
+}
+
+.container .navbar .you ul li a:hover {
+    background-color: transparent;
+    color: #0391E0;
+}
+
+.container .navbar .you ul li ul {
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: capitalize;
+    position: absolute;
+    left: 0%;
+    width: 310px;
+    background-color: #ffffff;
+    display: none;
+}
+
+.container .navbar .you ul li ul li {
+    width: 100%;
+}
+
+.container .navbar .you ul li ul li ul {
+    left: 310px;
+    top: 0%;
+}
+
+.container .navbar .you ul li:hover>ul {
+    display: initial;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.container .navbar .you ul li:hover>a {
+    transform: translatex(5px);
+}
+
+.container .navbar .you .imgg img {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -40px;
+    left: 100%;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 79%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .ndpage{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.container .ndpage .left{
+    width: 40%;
+    height: 60%;
+    background-color: #468bdb;
+    transition: all .3s linear;
+}
+.container .ndpage .left:hover{
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.container .ndpage .left .txt{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    position: relative;
+}
+.container .ndpage .left .txt h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Lora', serif;
+}
+.container .ndpage .left .txt h1::before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 35px;
+    background-color: #0391E0;
+    position: absolute;
+    top: 1%;
+    left: -0%;
+}
+.container .ndpage .left .pics{
+    width: 100%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    /* gap: 5%; */
+}
+.container .ndpage .left .pics .part1{
+    width: 48%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.container .ndpage .left .pics .part1 img{
+    width: 100%;
+    height: 50%;
+}
+.container .ndpage .left .pics .part1 h2{
+    font-weight: normal;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+}
+.container .ndpage .left .pics .part1 h2 a{
+    font-family: 'Lora', serif;
+    color: #0391E0;
+}
+.container .ndpage .left .pics .part1 h1{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 20px;
+}
+.container .ndpage .left .pics .part1 h1 a{
+    color: #0391E0;
+    font-family: 'Lora', serif;
+}
+.container .ndpage .left .pics .part1 p{
+    margin-top: 15px;
+    line-height: 20px;
+    font-family: 'Lora', serif;
+}
+.container .ndpage .left .pics .part2{
+    width: 47%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.container .ndpage .left .pics .part2 img{
+    width: 100%;
+    height: 50%;
+}
+.container .ndpage .left .pics .part2 h2{
+    font-weight: normal;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+}
+.container .ndpage .left .pics .part2 h2 a{
+    font-family: 'Lora', serif;
+    color: #0391E0;
+}
+.container .ndpage .left .pics .part2 h1{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+.container .ndpage .left .pics .part2 h1 a{
+    color: #0391E0;
+    font-family: 'Lora', serif;
+}
+.container .ndpage .left .pics .part2 p{
+    margin-top: 15px;
+    line-height: 20px;
+    font-family: 'Lora', serif;
+}
+.container .ndpage .right{
+    border-radius: 7px;
+    z-index: 1;
+    position: relative;
+    top: -10%;
+    left: 0%;
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .ndpage .right .top{
+    border-radius: 7px 7px 0px 0px; 
+    width: 100%;
+    height: 10%;
+    background-color: #0391E0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.container .ndpage .right .top h1{
+    margin-left: 10%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+}
+.container .ndpage .right .body1{
+    width: 90%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+.container .ndpage .right .body1 p{
+    color: #383838;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 10px 10px 0;
+    
+}
+.container .ndpage .right .body1 p a{
+    color: #0391E0;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: normal;
+    transition: .2s all linear;
+}
+.container .ndpage .right .body1 .hov2:hover{
+    color: #f36c1a;
+}
+.container .ndpage .right .body1 a{
+    color: #0391E0;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+    font-size: 23px;
+    font-weight: normal;
+    transition: .2s all linear;
+}
+.container .ndpage .right .body1 .hov1:hover{
+    color: #f36c1a;
+}
+
+.container .ndpage .right .body2{
+    width: 90%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+.container .ndpage .right .body2 p{
+    color: #383838;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 10px 10px 0;
+    
+}
+.container .ndpage .right .body2 p a{
+    color: #0391E0;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: normal;
+    transition: .2s all linear;
+}
+.container .ndpage .right .body2 .hov2:hover{
+    color: #f36c1a;
+}
+.container .ndpage .right .body2 a{
+    color: #0391E0;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+    font-size: 23px;
+    font-weight: normal;
+    transition: .2s all linear;
+}
+.container .ndpage .right .body2 .bodyhov1:hover {
+    color: #f36c1a;
+}
+.container .ndpage .right .body2 .bodyhov2:hover {
+    color: #f36c1a;
+}
+
+.container .ndpage .right .body3{
+    width: 90%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+.container .ndpage .right .body3 p{
+    color: #383838;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 10px 10px 0;
+    
+}
+.container .ndpage .right .body3 p a{
+    color: #0391E0;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: normal;
+    transition: .2s all linear;
+}
+.container .ndpage .right .body3 .hov2:hover{
+    color: #f36c1a;
+}
+.container .ndpage .right .body3 a{
+    color: #0391E0;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+    font-size: 23px;
+    font-weight: normal;
+    transition: .2s all linear;
+}
+.container .ndpage .right .body3 .bodyhov3:hover {
+    color: #f36c1a;
+}
+.container .ndpage .right .body3 .bodyhov4:hover {
+    color: #f36c1a;
+}
+
+.container .ndpage .right .body4{
+    width: 90%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+.container .ndpage .right .body4 p{
+    color: #383838;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 10px 10px 0;
+    
+}
+.container .ndpage .right .body4 p a{
+    color: #0391E0;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: normal;
+    transition: .2s all linear;
+}
+
+.container .ndpage .right .body4 a{
+    color: #0391E0;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+    font-size: 23px;
+    font-weight: normal;
+    transition: .2s all linear;
+}
+.container .ndpage .right .body4 .bodyhov5:hover {
+    color: #f36c1a;
+}
+.container .ndpage .right .body4 .bodyhov6:hover {
+    color: #f36c1a;
+}
+.container .ndpage .right .body5{
+    width: 90%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+.container .ndpage .right .body5 a{
+    text-transform: uppercase;
+    color: #0391E0;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+.container .ndpage .right .body5 .how:hover{
+    color: #f36c1a;
+}
