@@ -1389,6 +1389,36 @@ font-weight: 800;
     color: #959595;
     font-size: 18px;
     margin-bottom: 12px;
+    transition: all .2s linear;
+}
+.container .footer .foot ul li ul a:hover{
+    color: #fff;
+}
+.container .footer .foot .big{
+    display: flex;
+}
+.container .footer .foot .big li{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    position: relative;
+}
+.container .footer .foot .big li img{
+    position: relative;
+    padding: -10px;
+    width: 100px;
+    height: 50px;
+}
+.container .footer .foot .big .box1{
+    position: absolute;
+   
+
+}
+.container .footer .foot .big .box2{
+    position: absolute;
+    left: 30px;
+    top: 0%;
+    z-index: 1000;
 }
 .container .footer .foot ul li ul li{
     padding-bottom: 15px;
